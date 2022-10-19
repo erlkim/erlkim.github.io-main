@@ -1,0 +1,59 @@
+title: erlkim
+author: Erlkim
+email: halo@erlkim.com
+url: 'https://erlkim.com'
+description: >-
+  Biarlah jika ada orang yang merendahkan ataupun mencaci diri kita. </br>
+  Anggap saja hanya sehembus angin yang berlalu.
+show_excerpts: false
+paginate: '5'
+paginate_path: '/blog/page:num/'
+tag_permalink_style: pretty
+tag_page_layout: tag_page
+tag_page_dir: tag
+dash:
+  date_format: '%b %-d, %Y'
+  disqus:
+    shortname: erlkim-github-io
+  social_links:
+    - url: 'https://soundcloud.com/erlkim'
+      icon: soundcloud
+      color: orange
+    - url: 'https://twitter.com/erlkim'
+      icon: twitter-square
+      color: cyan
+    - url: 'https://erlkim.itch.io'
+      icon: itch-io
+      color: red
+    - url: 'https://www.twitch.tv/'
+      icon: twitch
+      color: purple
+    - url: 'https://www.youtube.com/'
+      icon: youtube
+      color: red
+    - url: 'https://github.com/erlkim'
+      icon: github-square
+      color: yellow
+  show_author: true
+  animation_speed: 50
+  avatar_source: local
+  avatar_path: /assets/avatar.gif
+  rtl: false
+Theme: jekyll-dash
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - liquid-md5
+  - jekyll/tagging
+  - jekyll-admin
+hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+collections:
+  posts:
+    output: true
+    sidebar_label: News
